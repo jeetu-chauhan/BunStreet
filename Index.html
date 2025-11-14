@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BunStreet — Burgers & Good Times</title>
+  <link rel="icon" href="Logo_burger.jpg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="BunStreet — handcrafted burgers, local ingredients, happy customers.">
+  <meta property="og:title" content="BunStreet">
+  <meta property="og:description" content="Handcrafted burgers in town">
+  <meta property="og:image" content="logo.svg">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">
+        <img src="Logo_burger.jpg" alt="BunStreet logo" class="logo-img">
+        <span>BunStreet</span>
+      </a>
+      <nav class="site-nav" id="site-nav">
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>Welcome to BunStreet</h1>
+        <p>Handcrafted burgers, fresh toppings, local vibes. Open daily for takeaway and dine-in.</p>
+        <p>🍔New stop for food cravings....🍔
+"Serving buns,smiles & street Buns🤤
+Bite ,Laugh, Repeat . That's the bun Street.🍔</p>
+        <p><a class="btn" href="#menu">See the menu</a></p>
+      </div>
+    </section>
+
+    <section id="menu" class="menu container">
+      <div class="menu-header">
+        <h2>Our Favorites</h2>
+        <div class="filters" role="tablist" aria-label="Filter menu">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="non-veg">Burgers</button>
+          <button class="filter-btn" data-filter="veg">Veg</button>
+          <button class="filter-btn" data-filter="fries">Fries</button>
+          <button class="filter-btn" data-filter="drinks">Drinks</button>
+        </div>
+      </div>
+
+      <div class="menu-grid" id="menu-grid">
+        <article class="card" data-type="non-veg">
+          <img src="clasic.jpg" alt="Classic Bun burger" class="card-img">
+          <h3>Classic Bun</h3>
+          <p class="desc">Juicy patty, cheddar, lettuce, tomato, secret sauce.</p>
+          <div class="meta">$9.50</div>
+        </article>
+
+        <article class="card" data-type="non-veg">
+          <img src="double_street.jpg" alt="Double Street burger" class="card-img">
+          <h3>Double Street</h3>
+          <p class="desc">Two patties, double cheese, caramelized onions.</p>
+          <div class="meta">$12.00</div>
+        </article>
+
+        <article class="card" data-type="veg">
+          <img src="gurden_bun.jpg" alt="Garden Bun burger" class="card-img">
+          <h3>Garden Bun</h3>
+          <p class="desc">Grilled portobello, avocado, arugula, lemon aioli.</p>
+          <div class="meta">$10.00</div>
+        </article>
+
+        <article class="card" data-type="veg">
+          <img src="pic_3.jpg" alt="Chickpea Smash burger" class="card-img">
+          <h3>Chickpea Smash</h3>
+          <p class="desc">House-made chickpea patty, pickled slaw, spicy mayo.</p>
+          <div class="meta">$9.00</div>
+        </article>
+
+        <article class="card" data-type="fries">
+          <img src="pic_2.jpg" alt="Crispy Fries" class="card-img">
+          <h3>Crispy Fries</h3>
+          <p class="desc">Hand-cut golden fries, sea salt, herb mayo.</p>
+          <div class="meta">$4.50</div>
+        </article>
+
+        <article class="card" data-type="fries">
+          <img src="pic_5.jpg" alt="Loaded Fries" class="card-img">
+          <h3>Loaded Fries</h3>
+          <p class="desc">Fries topped with cheddar, bacon bits, and green onions.</p>
+          <div class="meta">$6.50</div>
+        </article>
+
+        <article class="card" data-type="drinks">
+          <img src="lemonade.jpg" alt="Fresh Lemonade" class="card-img">
+          <h3>Fresh Lemonade</h3>
+          <p class="desc">Homemade lemonade with fresh lemons and mint.</p>
+          <div class="meta">$3.00</div>
+        </article>
+
+        <article class="card" data-type="drinks">
+          <img src="iced_tea.jpg" alt="Iced Tea" class="card-img">
+          <h3>Iced Tea</h3>
+          <p class="desc">Cold brew iced tea, available sweet or unsweet.</p>
+          <div class="meta">$2.50</div>
+        </article>
+
+        <article class="card" data-type="non-veg">
+          <img src="non_veg.jpg" alt="Spicy Smokehouse Burger" class="card-img">
+          <h3>Spicy Smokehouse</h3>
+          <p class="desc">Smoky Chicken patty, pepper jack, crispy bacon, jalapeños.</p>
+          <div class="meta">$11.50</div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h2>About BunStreet</h2>
+      <p>At BunStreet, every bite is a mini celebration! We’re a burger and fries brand built for people who love bold flavours, fun vibes, and food that makes their mood instantly better.
+From loaded burgers to crunchy fries, we serve everything hot, fresh, and dripping with deliciousness. Whether you’re a college foodie, a late-night snacker, or a weekend explorer, BunStreet is your new happy place.</p>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>Contact & Location</h2>
+      <div class="contact-grid">
+        <div>
+          <h3>Visit Us</h3>
+          <p>Siri fort road Delhi</p>
+          <p>Open daily: 11:00 — 21:00</p>
+          <p class="phone-number">
+            <a href="tel:+919759887866" aria-label="Call us">📞 +91 9759887866</a>
+          </p>
+          <div class="social-links">
+            <h4>Follow Us</h4>
+            <a href="https://www.linkedin.com/public-profile/settings/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+              <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.39v-1.2h-2.5v8.5h2.5v-4.34c0-.77.62-1.4 1.4-1.4.77 0 1.4.63 1.4 1.4v4.34h2.5M6.5 8a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m1.25 12h-2.5v-8.5h2.5v8.5z"/>
+              </svg>
+              LinkedIn
+            </a>
+            <a href="https://wa.me/905466" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+              <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4c0 3.2-2.6 5.8-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8C2 4.6 4.6 2 7.8 2m-.3 2c-2.1 0-3.8 1.7-3.8 3.8v8.4c0 2.1 1.7 3.8 3.8 3.8h8.4c2.1 0 3.8-1.7 3.8-3.8V7.8c0-2.1-1.7-3.8-3.8-3.8H7.5m9.6 1.5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3m-5.1 1.5a4 4 0 1 1 0 8 4 4 0 0 1 0-8m0 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+              </svg>
+              Instagram
+            </a>
+            <a href="https://twitter.com/bunstreet" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Twitter">
+              <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 00-9-5.5c4.75 2.25 7-7 7-7a10.6 10.6 0 01-9-5.5"/>
+              </svg>
+              Twitter
+            </a>
+          </div>
+        </div>
+        <form id="contact-form" class="contact-form" aria-label="Contact form">
+          <label>
+            Name
+            <input type="text" name="name" required>
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <button class="btn" type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> BunStreet — All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
